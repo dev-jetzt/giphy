@@ -2,6 +2,14 @@ import React, { ChangeEvent } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import axios from 'axios';
 
+// Giphy endpoint documentation: https://developers.giphy.com/docs/api/endpoint#search
+
+// 1. Fix the following code, so that one image can be displayed
+// 2. Display all 25 images
+// 3. Create component to select the number of images to display and modify endpoint accordingly
+// 4. Create a component to load more images (e.g. pagination)
+
+
 interface IState {
 }
 
